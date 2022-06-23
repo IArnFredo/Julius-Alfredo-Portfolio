@@ -7,7 +7,7 @@ const Header = ({
 }) => {
   return (
     <div className="mt-6 flex items-center justify-between sticky top-0 z-10 bg-white">
-      <h1 className="font-medium mob:p-2 laptop:p-0">Julius Alfredo - Portfolio.</h1>
+      <h1 className="font-medium mob:p-2 laptop:p-0">Julius Alfredo</h1>
       <div>
         <Button onClick={handleAboutScroll}>About</Button>
         <Button onClick={handleWorkScroll}>Work</Button>
