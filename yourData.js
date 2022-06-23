@@ -21,29 +21,23 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Djongers Weather", //Project Title - Add Your Project Title Here
+      title: "Djongers Weather",
       description: "Web used to track the weather around the world",
-      //Project Image - Add Your Project Image Here
       imageSrc: "https://i.ibb.co/JRDjJBp/project1.png",
-      //Project URL - Add Your Project Url Here
       url: "https://djong-weather.vercel.app/",
     },
     {
-      title: "SeiYou", //Project Title - Add Your Project Title Here
+      title: "SeiYou",
       description:
         "Mobile Cross Platform themed social media that people use to post their voice acting",
-      //Project Image - Add Your Project Image Here
       imageSrc: "https://i.ibb.co/Gv6BtvR/project3.png",
-      //Project URL - Add Your Project Url Here
       url: "https://sei-you.vercel.app/",
     },
     {
-      title: "Endah Karya Mandiri", //Project Title - Add Your Project Title Here
+      title: "Endah Karya Mandiri",
       description: "PT. Endah Karya Mandiri is a company engaged in the delivery of goods by land, sea, air and logistics in a professional manner to answer the challenges of fast, accurate and safe delivery services.",
-      //Project Image - Add Your Project Image Here
       imageSrc:
         "https://i.ibb.co/rZznLR0/project2.png",
-      //Project URL - Add Your Project Url Here
       url: "https://endahkaryamandiri.000webhostapp.com/",
     },
   ],
@@ -94,5 +88,3 @@ export default {
     "I am someone who is very interested in the world of Informatics, especially in the field of the Web development. Therefore, I am very happy to implement my knowledge in manufacturing The web and I are sociable and adapt easily to new environments.",
   //   End About Section ---------------------
 };
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
