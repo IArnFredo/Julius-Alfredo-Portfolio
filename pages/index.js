@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
+import Course from "../components/Course";
 import Head from 'next/head'
 // Local Data
 import data from "../yourData";
@@ -85,6 +86,24 @@ export default function Home() {
           ))}
         </div>
       </div>
+
+      <div
+        className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
+      >
+        <h1 className="text-2xl text-bold">Course Certification.</h1>
+        <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-4">
+          {data.course.map((project, index) => (
+            <Course
+              key={index}
+              img={project.imageSrc}
+              name={project.title}
+              description={project.provider}
+              onClick={() => window.open(project.url)}
+            />
+          ))}
+        </div>
+      </div>
+
       <div className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-2xl text-bold">Specialist.</h1>
         <div className="mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-6">

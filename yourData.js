@@ -1,7 +1,4 @@
 export default {
-  //(Please Do Not Remove The comma(,) after every variable)
-  //Change The Website Template
-
   //   Header Details ---------------------
   name: "chetan",
   headerTaglineOne: "Hello 👋",
@@ -49,19 +46,31 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "https://endahkaryamandiri.000webhostapp.com/",
     },
-
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End
-    ,{
-        title: 'Project Five',
-        description: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
   ],
 
   // End Work Section -----------------------
+
+  // Course Section ----------------------
+  course: [
+    {
+      title: "ES6 JavaScript Course",
+      provider: "Progate",
+      imageSrc: "https://i.ibb.co/FJqtYqj/about.png",
+      url: "https://progate.com/course_certificate/c46347e9rdxjl8",
+    },
+    {
+      title: "React Course",
+      provider: "Progate",
+      imageSrc: "https://i.ibb.co/FJqtYqj/about.png",
+      url: "https://progate.com/course_certificate/15e73923rdio3t",
+    },
+    {
+      title: "Git Course",
+      provider: "Progate",
+      imageSrc: "https://i.ibb.co/FJqtYqj/about.png",
+      url: "https://progate.com/course_certificate/81e78fferdirp1",
+    },
+  ],
 
   // Services Section ---------------
 
