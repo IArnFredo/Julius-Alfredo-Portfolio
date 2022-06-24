@@ -64,6 +64,18 @@ export default {
       imageSrc: "https://i.ibb.co/FJqtYqj/about.png",
       url: "https://progate.com/course_certificate/81e78fferdirp1",
     },
+    {
+      title:"Memulai Pemrograman Dengan C",
+      provider:"Dicoding",
+      imageSrc:"https://i.ibb.co/2PMQHGS/download.png",
+      url:"https://www.dicoding.com/certificates/07Z6RWEGMPQR",
+    },
+    {
+      title:"Memulai Pemrograman Dengan Java",
+      provider:"Dicoding",
+      imageSrc:"https://i.ibb.co/2PMQHGS/download.png",
+      url:"https://www.dicoding.com/certificates/NVP7K76V4ZR0",
+    }
   ],
 
   // Services Section ---------------
