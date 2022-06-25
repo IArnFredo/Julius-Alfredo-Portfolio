@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import Link from "next/link";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";

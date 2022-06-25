@@ -75,6 +75,12 @@ export default {
       provider:"Dicoding",
       imageSrc:"https://i.ibb.co/2PMQHGS/download.png",
       url:"https://www.dicoding.com/certificates/NVP7K76V4ZR0",
+    },
+    {
+      title:"React JS",
+      provider:"Great Learning",
+      imageSrc:"https://i.ibb.co/vH0gjP8/unnamed.jpg",
+      url:"https://olympus1.mygreatlearning.com/course_certificate/BJEJQNKN",
     }
   ],
 
