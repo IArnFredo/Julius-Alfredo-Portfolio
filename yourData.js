@@ -81,7 +81,13 @@ export default {
       provider:"Great Learning",
       imageSrc:"https://i.ibb.co/vH0gjP8/unnamed.jpg",
       url:"https://olympus1.mygreatlearning.com/course_certificate/BJEJQNKN",
-    }
+    },
+    {
+      title:"PHP",
+      provider:"Great Learning",
+      imageSrc:"https://i.ibb.co/vH0gjP8/unnamed.jpg",
+      url:"https://olympus1.mygreatlearning.com/course_certificate/OTYJUHOJ",
+    },
   ],
 
   // Services Section ---------------
