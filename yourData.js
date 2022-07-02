@@ -38,7 +38,7 @@ export default {
       description: "PT. Endah Karya Mandiri is a company engaged in the delivery of goods by land, sea, air and logistics in a professional manner to answer the challenges of fast, accurate and safe delivery services.",
       imageSrc:
         "https://i.ibb.co/rZznLR0/project2.png",
-      url: "https://endahkaryamandiri.000webhostapp.com/",
+      url: "https://endahkaryamandiri.co.id/",
     },
   ],
 

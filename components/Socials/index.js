@@ -6,7 +6,7 @@ import yourData from "../../yourData";
 
 const Socials = ({ className }) => {
   return (
-    <div className={`${className} flex`}>
+    <div data-aos="zoom-in" data-aos-duration="1000" className={`${className} flex`}>
       {yourData.socials.map((social, index) => (
         <Button key={index} onClick={() => window.open(social.link)}>
           {social.title}

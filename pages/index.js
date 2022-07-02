@@ -4,7 +4,7 @@ import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
 import Course from "../components/Course";
-import Head from 'next/head'
+import Head from "next/head";
 // Local Data
 import data from "../yourData";
 
@@ -50,19 +50,22 @@ export default function Home() {
         handleAboutScroll={handleAboutScroll}
         handleContactScroll={handleContactScroll}
       />
-      <div className="laptop:mt-20 mob:mt-10">
+      <div  className="laptop:mt-20 mob:mt-10">
         <div className="columns-1">
-          <h1 className="mt-5 text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
+          <h1 data-aos="zoom-in" data-aos-duration="1000" className="mt-5 text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
             {data.headerTaglineOne} <br />
             {data.headerTaglineTwo}
           </h1>
           <Socials className="mt-5 mob:mt-2 laptop:mt-5" />
-          <img src={data.headerImage} className="mt-5" width="300vw" ref={aboutRef} />
+          <img data-aos="zoom-in" data-aos-duration="1000"
+            src={data.headerImage}
+            className="mt-5"
+            width="300vw"
+            ref={aboutRef}
+          />
         </div>
-        <div
-          className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0"
-        >
-          <h1 className="text-2xl text-bold">About.</h1>
+        <div  data-aos="zoom-in" data-aos-duration="1000" className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0">
+          <h1  data-aos="zoom-in" data-aos-duration="1000" className="text-2xl text-bold">About.</h1>
           <p className="m-5 mob:m-0 laptop:m-5 mob:mt-2 laptop:ml-0 ml-0 text-3xl mob:text-xl laptop:text-3xl w-3/5 mob:w-full laptop:w-3/5">
             {data.aboutpara}
           </p>
@@ -72,7 +75,7 @@ export default function Home() {
         className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
         ref={workRef}
       >
-        <h1 className="text-2xl text-bold">Projects.</h1>
+        <h1 data-aos="zoom-in" data-aos-duration="1000" className="text-2xl text-bold">Projects.</h1>
         <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-4">
           {data.projects.map((project, index) => (
             <WorkCard
@@ -86,9 +89,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div
-        className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
-      >
+      <div className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-2xl text-bold">Course Certification.</h1>
         <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-4">
           {data.course.map((project, index) => (
@@ -104,7 +105,7 @@ export default function Home() {
       </div>
 
       <div className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0">
-        <h1 className="text-2xl text-bold">Specialist.</h1>
+        <h1 data-aos="flip-left" data-aos-duration="1000" className="text-2xl text-bold">Specialist.</h1>
         <div className="mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-6">
           {data.services.map((service, index) => (
             <ServiceCard
@@ -116,9 +117,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0" ref={contactRef}>
-        <h1 className="text-2xl text-bold">Contact.</h1>
-        <div className="mt-5">
+      <div
+        className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0"
+        ref={contactRef}
+      >
+        <h1 data-aos="flip-left" data-aos-duration="1000" className="text-2xl text-bold">Contact.</h1>
+        <div data-aos="flip-left" data-aos-duration="1000" className="mt-5">
           <Socials />
         </div>
       </div>
