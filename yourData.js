@@ -40,6 +40,13 @@ export default {
         "https://i.ibb.co/rZznLR0/project2.png",
       url: "https://endahkaryamandiri.co.id/",
     },
+    {
+      title: "Quick Recipe",
+      description: "Quick Recipe is a Mobile Application that provides the steps and ingredients needed to make various types of food recipes in the form of videos and writings.",
+      imageSrc:
+        "https://i.ibb.co/gyDQ17b/unnamed.webp",
+      url: "https://play.google.com/store/apps/details?id=quick_recipe.didi_x_djongers",
+    },
   ],
 
   // End Work Section -----------------------
