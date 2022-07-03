@@ -7,13 +7,14 @@ export default {
   headerImage: "https://i.ibb.co/716H929/Julius-Alfredo-Informatika-Foto.jpg",
 
   socials: [
-    { title: "Github", link: "https://github.com/IArnFredo" },
+    { title: "Github", link: "https://github.com/IArnFredo"},
     {
       title: "LinkedIn",
       link: "https://www.linkedin.com/in/julius-alfredo-6a37451b9/",
     },
-    { title: "Email", link: "mailto:julius.alfredo@student.umn.ac.id" },
-    { title: "Instagram", link: "https://www.instagram.com/alfred_oj/" },
+    { title: "Email", link: "mailto:julius.alfredo@student.umn.ac.id"},
+    { title: "Instagram", link: "https://www.instagram.com/alfred_oj/"},
+    { title: "Whatsapp", link: "https://wa.me/087867131109"},
   ],
 
   // End Header Details -----------------------
