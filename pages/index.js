@@ -206,7 +206,7 @@ export default function Home() {
           >
             Specialist.
           </h1>
-          <div className="mt-10 px-12  grid grid-cols-2 mob:grid-cols-1 tab:grid-cols-2 laptop:grid-cols-2 laptop:mx-2 gap-6 container mx-auto">
+          <div className="mt-10 px-12 grid grid-cols-2 mob:grid-cols-1 tab:grid-cols-2 laptop:grid-cols-2 laptop:mx-2 gap-6 container mx-auto">
             {data.services.map((service, index) => (
               <ServiceCard
                 key={index}
@@ -218,21 +218,21 @@ export default function Home() {
         </div>
 
         <div
-          className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0 laptop:mx-4 container mx-auto"
+          className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0 laptop:mx-4"
           ref={contactRef}
         >
           <h1
             data-aos="flip-left"
             data-aos-duration="1000"
-            className="text-2xl text-bold container mx-auto text-center"
+            className="text-2xl text-bold px-12 laptop:mx-10"
           >
             Contact.
           </h1>
-          <div data-aos="flip-left" data-aos-duration="1000" className="mt-5 text-center container">
+          <div data-aos="flip-left" data-aos-duration="1000" className="mt-5 px-12 laptop:mx-10">
             <Socials />
           </div>
         </div>
-        <h1 className="text-sm text-bold mt-10 mob:mt-2 laptop:mt-10 mob:p-2 laptop:p-0 laptop:mx-4 container mx-auto text-center">
+        <h1 className="text-sm text-bold mt-10 text-center">
           Made With ❤ by Julius Alfredo ©2022
         </h1>
       </div>

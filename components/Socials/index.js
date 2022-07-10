@@ -6,7 +6,7 @@ import yourData from "../../yourData";
 
 const Socials = ({ className }) => {
   return (
-    <div className={`${className} text-center`}>
+    <div className={`${className}`}>
       {yourData.socials.map((social, index) => (
         <Button key={index} onClick={() => window.open(social.link)}>
           <img src={social.icon} alt={social.title} width="30vw"/>
