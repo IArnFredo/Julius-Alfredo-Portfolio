@@ -132,7 +132,7 @@ export default function Home() {
           </div>
           <img src="assets/forest.png" className="forest" />
         </div>
-        <div className="laptop:mt-4 mob:mt-24 desktop:mt-20 laptopl:mt-28 laptopxl:mt-36 ez">
+        <div className="laptop:mt-4 mob:mt-24 desktop:mt-20 laptopl:mt-28 laptopxl:mt-36 container mx-auto ez">
           {/* Cloud animation */}
           {/* <div className="cloud">
             <img
@@ -144,32 +144,32 @@ export default function Home() {
             ref={aboutRef}
             data-aos="zoom-in"
             data-aos-duration="1000"
-            className="mt-6 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0 laptop:mx-4"
+            className="mt-6 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0 laptop:mx-4 container mx-auto"
           >
             <h1
               data-aos="zoom-in"
               data-aos-duration="1000"
-              className="text-2xl text-bold"
+              className="text-2xl text-bold text-center"
             >
               About.
             </h1>
-            <p className="m-5 mob:m-0 laptop:m-5 mob:mt-2 laptop:ml-0 ml-0 text-3xl mob:text-xl laptop:text-3xl w-3/5 mob:w-full laptop:w-3/5">
+            <p className="px-12 mob:m-0 laptop:m-5 mob:mt-2 laptop:ml-0 ml-0 text-3xl mob:text-xl mob:w-full container mx-auto">
               {data.aboutpara}
             </p>
           </div>
         </div>
         <div
-          className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
+          className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0 container mx-auto"
           ref={workRef}
         >
           <h1
             data-aos="zoom-in"
             data-aos-duration="1000"
-            className="text-2xl text-bold laptop:mx-4"
+            className="text-2xl px-12 text-bold laptop:mx-4"
           >
             Projects.
           </h1>
-          <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-4">
+          <div className="mt-10 px-12 mob:mt-5 laptop:mt-10 grid grid-cols-2 mob:grid-cols-1 tab:grid-cols-2 laptop:grid-cols-3 gap-4 container mx-auto">
             {data.projects.map((project, index) => (
               <WorkCard
                 key={index}
@@ -181,12 +181,11 @@ export default function Home() {
             ))}
           </div>
         </div>
-
-        <div className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0">
-          <h1 className="text-2xl laptop:mx-4 text-bold">
+        <div className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0 container mx-auto">
+          <h1 className="text-2xl px-12 laptop:mx-4 text-bold">
             Course Certification.
           </h1>
-          <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-4">
+          <div className="mt-10 px-12 mob:mt-5 laptop:mt-10 grid grid-cols-2 mob:grid-cols-1 tab:grid-cols-2 laptop:grid-cols-3 gap-4 container mx-auto">
             {data.course.map((project, index) => (
               <Course
                 key={index}
@@ -199,15 +198,15 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0">
+        <div className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0 container mx-auto">
           <h1
             data-aos="flip-left"
             data-aos-duration="1000"
-            className="text-2xl laptop:mx-4 text-bold"
+            className="text-2xl px-12  laptop:mx-4 text-bold"
           >
             Specialist.
           </h1>
-          <div className="mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 laptop:mx-2 gap-6">
+          <div className="mt-10 px-12  grid grid-cols-2 mob:grid-cols-1 tab:grid-cols-2 laptop:grid-cols-2 laptop:mx-2 gap-6 container mx-auto">
             {data.services.map((service, index) => (
               <ServiceCard
                 key={index}
@@ -219,21 +218,21 @@ export default function Home() {
         </div>
 
         <div
-          className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0 laptop:mx-4"
+          className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0 laptop:mx-4 container mx-auto"
           ref={contactRef}
         >
           <h1
             data-aos="flip-left"
             data-aos-duration="1000"
-            className="text-2xl text-bold"
+            className="text-2xl text-bold container mx-auto text-center"
           >
             Contact.
           </h1>
-          <div data-aos="flip-left" data-aos-duration="1000" className="mt-5">
+          <div data-aos="flip-left" data-aos-duration="1000" className="mt-5 text-center container">
             <Socials />
           </div>
         </div>
-        <h1 className="text-sm text-bold mt-10 mob:mt-2 laptop:mt-10 mob:p-2 laptop:p-0 laptop:mx-4">
+        <h1 className="text-sm text-bold mt-10 mob:mt-2 laptop:mt-10 mob:p-2 laptop:p-0 laptop:mx-4 container mx-auto text-center">
           Made With ❤ by Julius Alfredo ©2022
         </h1>
       </div>
