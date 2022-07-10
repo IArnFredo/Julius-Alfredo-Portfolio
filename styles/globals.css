@@ -1,9 +1,283 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-  font-family: "Hind";
+  color: white;
 }
 
+body {
+  margin: 0 !important;
+  background:#000000;
+  z-index: 1;
+}
+
+.ez {
+  font-family: 'Edu SA Beginner', cursive;
+  background-color: transparent;
+  z-index:1;
+}
+
+.glowing {
+  text-shadow: 0 0 40px #fff;
+}
+
+.splashScreen {
+  background:linear-gradient(#111425,#3751e0);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  transition: 1s;
+}
+
+.logoSplash {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 50%;
+  text-align: center;
+  transition: ease-in-out 1s;
+}
+
+.logoSplashScreen {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.logoSplashScreen.active {
+  opacity: 1;
+  transition: ease-in-out 1s;
+}
+
+.logoSplashScreen.fade {
+  opacity: 0;
+  transition: ease-in-out 1s;
+}
+
+
+/* Landing page */
+.scene{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(#111425,#3751e0);
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.moon{
+  position:relative;
+  top:10vh;
+  left:10vw;
+  width:100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index:1000;
+}
+.moon:after{
+  content:'';
+  position:absolute;
+  top:-15px;
+  left:15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background:linear-gradient(#111425,#3751e0);
+  background-attachment: fixed;
+}
+
+.forest{
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  z-index:1000;
+  transform: scale(1.2);
+}
+.scene i{
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  animation: starsUp linear infinite;
+}
+
+@keyframes starsUp{
+  0%{
+    opacity: 0;
+    transform: translateY(0);
+  }
+  10%,90%{
+    opacity:1;
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(-10vh);
+  }
+}
+
+.star {
+  position: absolute;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(132deg) brightness(103%) contrast(103%);
+}
+
+.meteor {
+  position: absolute;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(132deg) brightness(103%) contrast(103%);
+  /* filter: invert(74%) sepia(90%) saturate(631%) hue-rotate(195deg) brightness(102%) contrast(92%); */
+  top: 0vh;
+  left: 3vw;
+  opacity: 0;
+  animation: meteor 2s linear infinite both;
+  z-index: -999;
+}
+
+.cloud{
+  position: absolute;
+  z-index: 3;
+}
+
+.slide-top {
+  animation: slide-top 3s linear infinite both;
+}
+
+.slide-bottom {
+  animation: slide-bottom 3s linear infinite both;
+}
+
+.profile1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageProfile {
+  position: absolute;
+  object-fit: cover;
+  height: 20vw;
+  width: 20vw;
+  border-radius: 50%;
+  border-color: #363635;
+  border-width: 8px;
+  border-style: solid;
+  transition: all 2s;
+  z-index: 4;
+}
+
+button:hover {
+  background-color: #dfecf5 !important;
+}
+
+@media (max-width:2560px) {
+  .imageProfile {
+    height: 12vw;
+    width: 12vw;
+  }
+}
+
+@media(max-width:1920px) {
+  .imageProfile {
+    height: 18vw;
+    width: 18vw;
+  }
+}
+
+@media(max-width:1440px) {
+  .imageProfile {
+    height: 20vw;
+    width: 20vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .imageProfile {
+    height: 24vw;
+    width: 24vw;
+  }
+}
+
+
+
+@media (max-width: 425px) {
+  .imageProfile {
+    height: 40vw;
+    width: 40vw;
+  }
+}
+
+
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes meteor {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(400px) translateX(400px) rotate(0deg);
+  }
+}
+
+@keyframes splash {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+
+  100% {
+    transform: translateY(-200vh);
+  }
+}
+
+
+
+/* .moon{
+  filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(340deg) brightness(106%) contrast(104%);
+} */

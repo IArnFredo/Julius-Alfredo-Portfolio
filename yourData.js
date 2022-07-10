@@ -1,20 +1,51 @@
 export default {
   //   Header Details ---------------------
-  name: "chetan",
-  headerTaglineOne: "Hello 👋",
+  headerTaglineOne: "I'm Julius Alfredo",
   headerTaglineTwo:
-    "I'm Julius Alfredo - curious Web developer based in Tangerang, Indonesia. ",
+    "Informatics Student 2019 from Universitas Multimedia Nusantara ",
   headerImage: "https://i.ibb.co/716H929/Julius-Alfredo-Informatika-Foto.jpg",
 
   socials: [
-    { title: "Github", link: "https://github.com/IArnFredo"},
+    {
+      title: "Github",
+      link: "https://github.com/IArnFredo",
+      icon: "assets/github.png",
+    },
     {
       title: "LinkedIn",
       link: "https://www.linkedin.com/in/julius-alfredo-6a37451b9/",
+      icon: "assets/linkedin.png",
     },
-    { title: "Email", link: "mailto:julius.alfredo@student.umn.ac.id"},
-    { title: "Instagram", link: "https://www.instagram.com/alfred_oj/"},
-    { title: "Whatsapp", link: "https://wa.me/087867131109"},
+    {
+      title: "Email",
+      link: "mailto:julius.alfredo@student.umn.ac.id",
+      icon: "assets/email.svg",
+    },
+    {
+      title: "Instagram",
+      link: "https://www.instagram.com/alfred_oj/",
+      icon: "assets/instagram.png",
+    },
+    {
+      title: "Whatsapp",
+      link: "https://wa.me/087867131109",
+      icon: "assets/whatsapp.png",
+    },
+    {
+      title: "Steam",
+      link: "https://steamcommunity.com/id/SameOldNumb/",
+      icon: "assets/steam.png",
+    },
+    {
+      title: "Facebook",
+      link: "https://www.facebook.com/asadler27",
+      icon: "assets/facebook.png",
+    },
+    {
+      title: "Line",
+      link: "http://line.me/ti/p/~alfred_oj",
+      icon: "assets/line.png",
+    }
   ],
 
   // End Header Details -----------------------
@@ -36,16 +67,16 @@ export default {
     },
     {
       title: "Endah Karya Mandiri",
-      description: "PT. Endah Karya Mandiri is a company engaged in the delivery of goods by land, sea, air and logistics in a professional manner to answer the challenges of fast, accurate and safe delivery services.",
-      imageSrc:
-        "https://i.ibb.co/rZznLR0/project2.png",
+      description:
+        "PT. Endah Karya Mandiri is a company engaged in the delivery of goods by land, sea, air and logistics in a professional manner to answer the challenges of fast, accurate and safe delivery services.",
+      imageSrc: "https://i.ibb.co/rZznLR0/project2.png",
       url: "https://endahkaryamandiri.co.id/",
     },
     {
       title: "Quick Recipe",
-      description: "Quick Recipe is a Mobile Application that provides the steps and ingredients needed to make various types of food recipes in the form of videos and writings.",
-      imageSrc:
-        "https://i.ibb.co/gyDQ17b/unnamed.webp",
+      description:
+        "Quick Recipe is a Mobile Application that provides the steps and ingredients needed to make various types of food recipes in the form of videos and writings.",
+      imageSrc: "https://i.ibb.co/gyDQ17b/unnamed.webp",
       url: "https://play.google.com/store/apps/details?id=quick_recipe.didi_x_djongers",
     },
   ],
@@ -73,28 +104,28 @@ export default {
       url: "https://progate.com/course_certificate/81e78fferdirp1",
     },
     {
-      title:"Memulai Pemrograman Dengan C",
-      provider:"Dicoding",
-      imageSrc:"https://i.ibb.co/2PMQHGS/download.png",
-      url:"https://www.dicoding.com/certificates/07Z6RWEGMPQR",
+      title: "Memulai Pemrograman Dengan C",
+      provider: "Dicoding",
+      imageSrc: "https://i.ibb.co/2PMQHGS/download.png",
+      url: "https://www.dicoding.com/certificates/07Z6RWEGMPQR",
     },
     {
-      title:"Memulai Pemrograman Dengan Java",
-      provider:"Dicoding",
-      imageSrc:"https://i.ibb.co/2PMQHGS/download.png",
-      url:"https://www.dicoding.com/certificates/NVP7K76V4ZR0",
+      title: "Memulai Pemrograman Dengan Java",
+      provider: "Dicoding",
+      imageSrc: "https://i.ibb.co/2PMQHGS/download.png",
+      url: "https://www.dicoding.com/certificates/NVP7K76V4ZR0",
     },
     {
-      title:"React JS",
-      provider:"Great Learning",
-      imageSrc:"https://i.ibb.co/vH0gjP8/unnamed.jpg",
-      url:"https://olympus1.mygreatlearning.com/course_certificate/BJEJQNKN",
+      title: "React JS",
+      provider: "Great Learning",
+      imageSrc: "https://i.ibb.co/vH0gjP8/unnamed.jpg",
+      url: "https://olympus1.mygreatlearning.com/course_certificate/BJEJQNKN",
     },
     {
-      title:"PHP",
-      provider:"Great Learning",
-      imageSrc:"https://i.ibb.co/vH0gjP8/unnamed.jpg",
-      url:"https://olympus1.mygreatlearning.com/course_certificate/OTYJUHOJ",
+      title: "PHP",
+      provider: "Great Learning",
+      imageSrc: "https://i.ibb.co/vH0gjP8/unnamed.jpg",
+      url: "https://olympus1.mygreatlearning.com/course_certificate/OTYJUHOJ",
     },
   ],
 
