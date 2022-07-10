@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceCard = ({ name, description }) => {
   return (
-    <div className="w-full p-4 mob:p-2 rounded-lg transition-all ease-out duration-300 hover:bg-sky-600 hover:scale-105 cursor-pointer">
+    <div className="w-full p-4 mob:p-2 rounded-lg transition-all ease-out duration-300">
       <h1 data-aos="flip-left" data-aos-duration="1000" className="text-3xl">{name ? name : "Heading"}</h1>
       <p data-aos="flip-left" data-aos-duration="1000" className="mt-5 opacity-70 text-xl">
         {description
