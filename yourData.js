@@ -53,6 +53,12 @@ export default {
   // Work Section ------------------------
   projects: [
     {
+      title: "UMN Festival 2021",
+      description: "A biggest annual festival at Multimedia Nusantara University as a form of birthday celebration.",
+      imageSrc: "assets/ufest.png",
+      url: "http://ufest2021.epizy.com/",
+    },
+    {
       title: "Djongers Weather",
       description: "Web used to track the weather around the world",
       imageSrc: "https://i.ibb.co/JRDjJBp/project1.png",
@@ -78,6 +84,20 @@ export default {
         "Quick Recipe is a Mobile Application that provides the steps and ingredients needed to make various types of food recipes in the form of videos and writings.",
       imageSrc: "https://i.ibb.co/gyDQ17b/unnamed.webp",
       url: "https://play.google.com/store/apps/details?id=quick_recipe.didi_x_djongers",
+    },
+    {
+      title: "Expert System Sepeda Motor Touring",
+      description:
+        "This is a website that aims for people to find a motorbike that is suitable for touring, based on their respective criteria",
+      imageSrc: "/assets/touring.png",
+      url: "https://sepedamotortouring.000webhostapp.com/",
+    },
+    {
+      title: "Kha Shi Han Rental",
+      description:
+        "Kha Shi Han is a website aimed at people, to renting game consoles on the market.",
+      imageSrc: "/assets/khashihan.png",
+      url: "http://khashihan.epizy.com/",
     },
   ],
 

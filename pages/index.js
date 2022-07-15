@@ -149,13 +149,13 @@ export default function Home() {
             <h1
               data-aos="zoom-in"
               data-aos-duration="1000"
-              className="text-2xl text-bold text-center"
+              className="text-4xl text-bold text-center"
             >
               About.
             </h1>
-            <p className="px-12 mob:m-0 laptop:m-5 mob:mt-2 laptop:ml-0 ml-0 text-3xl mob:text-xl mob:w-full container mx-auto">
+            <h2 className="px-12 mob:m-0 laptop:m-5 mob:mt-2 laptop:ml-0 ml-0 text-4xl mob:text-xl mob:w-full container mx-auto">
               {data.aboutpara}
-            </p>
+            </h2>
           </div>
         </div>
         <div

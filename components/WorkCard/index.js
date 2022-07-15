@@ -10,7 +10,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
         onClick={onClick}
       >
         <div
-          className="overflow-hidden rounded-lg transition-all ease-out duration-300 hover:scale-95 mob:h-48"
+          className="overflow-hidden rounded-lg transition-all ease-out duration-300 hover:scale-95 mob:h-48 bg-white"
           style={{ height: "200px" }}
         >
           <img
@@ -31,7 +31,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
         <h2
           data-aos="zoom-in"
           data-aos-duration="1000"
-          className="text-xl opacity-70"
+          className="text-xl opacity-60 font-medium"
         >
           {description ? description : "Description"}
         </h2>
