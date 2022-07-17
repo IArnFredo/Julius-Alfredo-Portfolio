@@ -24,13 +24,6 @@ const Header = ({
               width="50vw"
             />
           </Link>
-          <button
-            className="text-xl px-3 py-1"
-            type="button"
-            onClick={() => setNavbarOpen(!navbarOpen)}
-          >
-            <img width="30vw" src="assets/moon2.svg" />
-          </button>
         </div>
         <div
           className={
